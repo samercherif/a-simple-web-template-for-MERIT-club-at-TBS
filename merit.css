@@ -1,0 +1,130 @@
+#plan{
+
+	width: 1350px;
+}
+
+#bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -20;
+}
+
+#screen{
+
+  position: absolute;
+  left: 273px;
+  top: 39px;
+  width: 774px;
+  z-index: 3;
+}
+
+#logo {
+  position: absolute;
+  z-index: 5;
+  margin-left: 620px;
+  margin-top: 520px;
+  width: 100px;
+  height: auto;
+}
+#nav {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.678;
+  position: absolute;
+  left: 33.49px;
+  top: 376px;
+  width: 710px;
+  height: 54px;
+  z-index: 5;
+}
+
+#screen_content {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 33.49px;
+  top: 30px;
+  width: 710px;
+  height: 399px;
+  z-index: 4;
+}
+
+#logo{
+  position: absolute;
+  top: -2px;
+  left: -10px;
+}
+#home{
+  font-size: 14px;
+  font-family: "arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  position: absolute;
+  left: 277px;
+  top: 12.502px;
+}
+
+#about{
+  font-size: 14px;
+  font-family: "arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  position: absolute;
+  left: 377.214px;
+  top: 12.502px;
+}
+
+#training{
+  font-size: 14px;
+  font-family: "arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  position: absolute;
+  left: 516.699px;
+  top: 12.502px;
+}
+#team{
+  font-size: 14px;
+  font-family: "arial";
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  position: absolute;
+  left: 642.288px;
+  top: 12.502px;
+}
+
+#menu{
+  position: absolute;
+  bottom: 10px;
+  right: 170px;
+  width: 710px;
+  height: 54px;
+  z-index: -5;
+
+}
+
+#menu a {
+
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: red;
+}
+
+/* Add a color to the active/current link */
+#menu a.active {
+   color: white;
+}
+
+
+
